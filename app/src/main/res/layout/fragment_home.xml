@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Hi"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/hi"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="50dp"/>
+
+    <ImageView
+        android:id="@+id/notification"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="310dp"
+        android:elevation="20dp"
+        android:src="@drawable/notiiii" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="-59dp"
+        android:layout_marginEnd="-62dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/users" />
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="welcome to "
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:text="EcoCollecte ! "
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="130dp"
+        android:fontFamily="@font/architects_daughter"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="24dp"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="70dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Wast existe"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="120dp"
+        android:textStyle="bold"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_below="@id/profile_image"
+        android:layout_marginTop="189dp"
+        android:elevation="20dp" />
+    </RelativeLayout>
+

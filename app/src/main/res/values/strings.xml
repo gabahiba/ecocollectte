@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoCollecte</string>
+    <string-array name="types_array">
+        <item>Plastique</item>
+        <item>Carton</item>
+        <item>Fer</item>
+        <item>Bois</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+</resources>

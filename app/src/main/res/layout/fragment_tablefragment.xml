@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayy"
+    tools:context=".tablefragment">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="388dp"
+        android:layout_height="599dp"
+        android:background="@drawable/frame"
+        android:elevation="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:gravity="center"
+            android:fontFamily="@font/alice"
+            android:text="Waste information table"
+            android:textColor="@color/green"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_scan"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/scanvide" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="110dp"
+            android:text="Wast Type :"
+            android:fontFamily="@font/alike_angular"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/btn1"
+            android:paddingStart="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="210dp"
+            android:text="Date :"
+            android:fontFamily="@font/alike_angular"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="245dp"
+            android:background="@drawable/btn1"
+            android:hint="DD/MM/YYYY"
+            android:paddingStart="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="310dp"
+            android:text="Size :"
+            android:fontFamily="@font/alike_angular"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/size"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="345dp"
+            android:background="@drawable/btn1"
+            android:hint="size"
+            android:paddingStart="15dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="410dp"
+            android:text="Wast Location :"
+            android:fontFamily="@font/alike_angular"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="445dp"
+            android:background="@drawable/btn1"
+            android:hint="Location"
+            android:paddingStart="15dp" />
+
+        <ImageView
+            android:id="@+id/imageViewLoc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="260sp"
+            android:layout_marginTop="419dp"
+            android:onClick="openMap"
+            android:src="@drawable/loc" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="155dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="515dp"
+            android:background="@drawable/btn2"
+            android:text="Save"
+            android:fontFamily="@font/alice"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

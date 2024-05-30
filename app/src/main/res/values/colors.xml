@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#93DFC1</color>
+    <color name="green1">#3AA67C</color>
+    <color name="green6">#B8D2AB</color>
+    <color name="gray">#C3C3C3</color>
+    <color name="greeen">#74CCA9</color>
+    <color name="grayy">#E1E4E2</color>
+    <color name="green8">#4FBF95</color>
+    <color name="rouge">#E81212</color>
+    <color name="orange">#FFFAA320</color>
+    <color name="brown">#9C9E4F18</color>
+    <color name="beige">#DFDFBB</color>
+    <color name="grayyy">#808080</color>
+    <color name="light_blue">#ADD8E6</color>
+
+    <!-- onboarding color -->
+    <color name="Green">#93DFC1</color>
+    <color name="Green1">#8593DFC1</color>
+    <color name="Transparant">#00000000</color>
+
+    <!-- indicator color -->
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#6B274A1A</color>
+
+</resources>

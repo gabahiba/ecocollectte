@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799543686099",
+    "project_id": "ecoo2-e4b0c",
+    "storage_bucket": "ecoo2-e4b0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799543686099:android:a516c60f4486a1937e3526",
+        "android_client_info": {
+          "package_name": "com.hb.ecocollectte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-ekq_xeifzXiA2hona-fGRBC-cIuCRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

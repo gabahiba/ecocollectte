@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="SettingFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/framsetting"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Settings"
+        android:textSize="40dp"
+        android:fontFamily="@font/alice"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"/>
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="540dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70sp"
+        android:background="@drawable/frame"
+        android:elevation="14dp">
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/frame"
+            android:elevation="14dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Languages"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="70dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prmtrnot"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/prmtrrr"
+                android:layout_marginTop="-26dp"
+                android:layout_marginStart="-20dp"/>
+            <ImageView
+                android:id="@+id/language"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/next"
+                android:layout_marginTop="-1dp"
+                android:layout_marginStart="230dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/frame"
+            android:elevation="14dp">
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Notification"
+                android:textSize="20dp"
+                android:fontFamily="@font/alice"
+                android:textStyle="bold"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="70dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prmtrsoundd"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/prmtrrrr"
+                android:layout_marginTop="-31dp"
+                android:layout_marginStart="-25dp"/>
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/next"
+                android:layout_marginTop="-1dp"
+                android:layout_marginStart="230dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/frame"
+            android:elevation="14dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Dark Mode"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="70dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prmtrnott"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/prmtr"
+                android:layout_marginTop="-35dp"
+                android:layout_marginStart="-30dp"/>
+            <Switch
+                android:id="@+id/darkModeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="20dp" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/frame"
+            android:elevation="14dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="About"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="70dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prmtrsound"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/aboutttttt"
+                android:layout_marginTop="-26dp"
+                android:layout_marginStart="-20dp"/>
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/next"
+                android:layout_marginTop="-1dp"
+                android:layout_marginStart="230dp"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/frame"
+            android:elevation="14dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Help"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="70dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prmtrhelp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/prmtrr"
+                android:layout_marginTop="-26dp"
+                android:layout_marginStart="-20dp"/>
+            <ImageView
+                android:id="@+id/help"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/next"
+                android:layout_marginTop="-1dp"
+                android:layout_marginStart="230dp"/>
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
